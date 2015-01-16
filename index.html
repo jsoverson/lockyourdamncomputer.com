@@ -16,12 +16,13 @@
             LYDC is the leading site to publicly humiliate coworkers who won't lock their damn computers.
           </p>
           <h2>How does it work?</h2>
+          <audio src="test.wav" id="test-audio" preload></audio>
           <ol class="steps">
             <li>Turn up your victim's volume.</li>
+            <li>Test Volume : <button id="test-button">Blip!</button></li>
             <li>Click on a payload below.</li>
             <li>Click "Start".</li>
             <li>Walk away.</li>
-            <li>Profit.</li>
           </ol>
 
           <p class="lead">
@@ -35,6 +36,10 @@
     </div>
 
   </div>
-
+  <script>
+    var audio = document.getElementById('test-audio');
+    var testButton = document.getElementById('test-button');
+    testButton.addEventListener('click', function(){ audio.play() });
+  </script>
 </body>
 </html>

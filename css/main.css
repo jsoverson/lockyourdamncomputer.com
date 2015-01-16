@@ -71,10 +71,18 @@ h2 {
 }
 
 
-  .site-wrapper-inner {
-    vertical-align: middle;
-  }
-  .cover-container {
-    width: 700px;
-  }
+.site-wrapper-inner {
+  vertical-align: middle;
+}
+.cover-container {
+  width: 700px;
+}
 
+#test-button {
+  background-color: transparent;
+  color:#cccccc;
+  border:1px solid #ccc;
+  border-radius: 4px;
+  cursor:pointer;
+  display:inline-block;
+}
