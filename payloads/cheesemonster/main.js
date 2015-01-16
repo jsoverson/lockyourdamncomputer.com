@@ -4,7 +4,6 @@ var video;
 function setup() {
   console.log('setup');
   video = document.getElementById('video');
-  goFullScreen();
 }
 
 function activate() {
